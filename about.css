@@ -1,0 +1,205 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general text styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    background-image: url('https://t3.ftcdn.net/jpg/02/70/03/44/360_F_270034417_6oHmS34V8MePTXdcdLdh54DnTvmYuUHq.jpg'); 
+    background-size:contain; 
+    background-position: center center; 
+    background-attachment: fixed; 
+}
+
+/* Header styling */
+header{
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #fff;
+    color: #1abc9c;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Navigation styling */
+
+
+/* Main content styling */
+main {
+    padding: 40px 30px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #16a085;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+section ul {
+    list-style-type: none;
+    font-size: 1.1rem;
+}
+
+section ul li {
+    margin: 10px 0;
+}
+
+section ul li strong {
+    color: #16a085;
+}
+
+/* About image styling */
+.about-image-section {
+    text-align: center;
+}
+
+.campus-image {
+    width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Alumni section styling */
+.alumni-section {
+    background-color: #d1f2eb;
+}
+
+.alumni-stories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.alumni {
+    width: 45%;
+    background-color: #fdfefe;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 2px solid #16a085;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.alumni:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.alumni h3 {
+    color: #16a085;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+/* Contact section styling */
+.contact-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid #16a085;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section a {
+    color: #16a085;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-section a:hover {
+    color: #1abc9c;
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background-color: #16a085;
+    color: #ecf0f1;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .alumni-stories {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .alumni {
+        width: 80%;
+        margin: 10px 0;
+    }
+}

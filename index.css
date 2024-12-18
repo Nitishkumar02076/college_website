@@ -1,0 +1,135 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+}
+
+/* Header Section */
+header {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 1.5em 0;
+}
+
+.banner {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+    gap: 10px; 
+    padding: 0 20px; 
+    text-align: center; 
+}
+.banner img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.banner h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+.banner p {
+    font-size: 1rem;
+    margin: 0; 
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #fff;
+    color: #1abc9c;
+    border-radius: 5px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.campus-img {
+    width: 1400px;
+    height: 500px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Highlights Section */
+.highlights {
+    text-align: center;
+}
+
+.highlights h2 {
+    margin-bottom: 20px;
+    color: #2980b9;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 10px 0;
+    margin-top: 20px;
+}

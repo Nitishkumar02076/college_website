@@ -1,0 +1,165 @@
+/* General Reset */
+body, h1, h2, h3, p, ul, li, a, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ70oowx29Blx4UD8ZvAkoJR1m6JmEwoZEDhA&s'); 
+    background-size:contain; 
+    background-position: center center; 
+    background-attachment: fixed; 
+}
+
+/* Header */
+.contact-header {
+    background-color: rgba(26, 188, 156, 0.8); 
+    color: white;
+    padding: 1.5em 0;
+}
+
+.banner {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+/* Navigation */
+.contact-header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 20px;
+}
+
+.contact-header nav ul li {
+    display: inline;
+}
+
+.contact-header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s;
+}
+
+.contact-header nav ul li a:hover {
+    background-color: #fff;
+    color: #1abc9c;
+    border-radius: 5px;
+}
+
+/* Main Content */
+.contact-main {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-bottom: 40px;
+}
+
+.contact-info h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.info-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+    max-width: 500px;
+}
+
+.info-box p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.info-box a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+/* Contact Form */
+.contact-form-section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form-section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color:white;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #16a085;
+}
+
+/* Footer */
+.contact-footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
